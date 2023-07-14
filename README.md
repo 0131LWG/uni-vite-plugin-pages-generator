@@ -31,24 +31,24 @@ plugins：[
 
 3. 配置文件目录
 
-   ![Alt text](README/image.png)
+   ![Alt text](https://github.com/0131LWG/uni-vite-plugin-pages-generator/blob/master/README/image.png?raw=true)
 
    注：action 文件目录不需要创建，插件会自动生成，action 下插件会自动生成对应路由的映射文件，便于路由跳转时读取，而不需要写很长的路径
 
 需要配置和 pages.json 文件类似如 pages：
-![Alt text](README/pages.png)
+![Alt text](https://github.com/0131LWG/uni-vite-plugin-pages-generator/blob/master/README/pages.png?raw=true)
 
 pages 下配置的则为主包页面，同理 subPackages 则为子包，而 subPackages 下的文件名，则为子包名:
 
-![Alt text](README/subPackages.png)
+![Alt text](https://github.com/0131LWG/uni-vite-plugin-pages-generator/blob/master/README/subPackages.png?raw=true)
 
 其他的配置方式也类似：
 
-![Alt text](README/easycom.png)
+![Alt text](https://github.com/0131LWG/uni-vite-plugin-pages-generator/blob/master/README/easycom.png?raw=true)
 
-4. 配置完成后运行项目，会自动生成路由映射文件和 pages.json 文件
+1. 配置完成后运行项目，会自动生成路由映射文件和 pages.json 文件
 
-5. 路由跳转配置封装,此代码可根据个人需求修改
+2. 路由跳转配置封装,此代码可根据个人需求修改
 
 ```ts
 /**
